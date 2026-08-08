@@ -337,7 +337,56 @@ section {
     color: #64748b;
 }
 
+/* ==========================================
+   CLIENT REPORTING
+   ========================================== */
 
+.client-reporting {
+    background:
+        linear-gradient(
+            180deg,
+            #ffffff 0%,
+            #eff6ff 100%
+        );
+
+    border-top: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+
+.client-reporting .why-item {
+    position: relative;
+    overflow: hidden;
+
+    border:
+        1px solid
+        #dbeafe;
+
+    box-shadow:
+        0 8px 25px
+        rgba(15, 23, 42, 0.05);
+}
+
+
+.client-reporting .why-item::before {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 4px;
+    height: 100%;
+
+    background: #2563eb;
+}
+
+
+.client-reporting .why-item h3 {
+    color: #0f3b70;
+}
+    
 /* ==========================================
    WHY US
    ========================================== */
@@ -558,11 +607,18 @@ footer strong {
         </a>
 
         <a
-            class="portal-link"
-            href="#"
-        >
-            Agent Portal
-        </a>
+    class="portal-link"
+    href="#"
+>
+    Client Portal
+</a>
+
+<a
+    class="portal-link"
+    href="#"
+>
+    Agent Portal
+</a>
 
     </div>
 
@@ -717,6 +773,94 @@ footer strong {
 <!-- ==========================================
      WHY 500 MULTISERVICES
      ========================================== -->
+
+    <!-- ==========================================
+     CLIENT REPORTING
+     ========================================== -->
+
+<section class="client-reporting">
+
+    <div class="section-heading">
+
+        <h2>
+            Your Operation. Your Results.
+        </h2>
+
+        <p>
+            500 Multiservices gives our business clients
+            direct access to the information that matters.
+            Review service performance, customer satisfaction
+            and feedback without waiting for a manual report.
+        </p>
+
+    </div>
+
+
+    <div class="why-grid">
+
+
+        <div class="why-item">
+
+            <h3>
+                📊 Performance Reports
+            </h3>
+
+            <p>
+                Monitor call volume, answered calls,
+                service levels and operational performance
+                from your Client Portal.
+            </p>
+
+        </div>
+
+
+        <div class="why-item">
+
+            <h3>
+                ⭐ Customer Satisfaction
+            </h3>
+
+            <p>
+                See customer satisfaction scores,
+                recommendation results and feedback
+                collected after customer interactions.
+            </p>
+
+        </div>
+
+
+        <div class="why-item">
+
+            <h3>
+                🎧 Service Quality
+            </h3>
+
+            <p>
+                Understand how customers rate their
+                interaction with the agents supporting
+                your business.
+            </p>
+
+        </div>
+
+
+        <div class="why-item">
+
+            <h3>
+                📱 Access Anywhere
+            </h3>
+
+            <p>
+                Review your operation from your computer
+                or phone whenever you need it.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
 
 <section
     id="about"
