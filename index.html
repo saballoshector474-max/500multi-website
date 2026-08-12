@@ -103,7 +103,8 @@ nav {
 
 
 .portal-link {
-    padding: 9px 15px;
+      white-space: nowrap;
+      padding: 9px 15px;
     border-radius: 7px;
     background: rgba(255,255,255,0.12);
 }
@@ -521,9 +522,9 @@ footer {
 }
 
 
-footer strong {
-    color: white;
-}
+footer strong { color: white; }
+    footer a, .contact-email { color: #2563eb; font-weight: 700; text-decoration: none; }
+    footer a:hover, .contact-email:hover { text-decoration: underline; }
 
 
 /* ==========================================
@@ -534,11 +535,10 @@ footer strong {
     max-width: 850px
 ) {
 
-    .nav-links a:not(
-        .portal-link
-    ) {
-        display: none;
-    }
+    .nav-links a:not( .portal-link ) { display: none; }
+      nav { padding: 14px 5%; }
+      .logo { font-size: 18px; }
+      .portal-link { padding: 8px 11px; font-size: 13px; }
 
 
     .hero {
@@ -606,17 +606,9 @@ footer strong {
             Contact
         </a>
 
-        <a
-    class="portal-link"
-    href="#"
->
-    Client Portal
-</a>
+        
 
-<a
-    class="portal-link"
-    href="https://agents.500multi.com"
->
+<a class="portal-link" href="https://agents.500multi.com" target="_blank" rel="noopener noreferrer">
     Agent Portal
 </a>
 
@@ -787,8 +779,7 @@ footer strong {
         </h2>
 
         <p>
-            Your Client Portal gives you direct access to the performance,
-            customer feedback and service metrics that matter to your business
+            Your Client Portal will give clients direct access to the performance, customer feedback and service metrics that matter to their business.
         </p>
 
     </div>
@@ -1014,6 +1005,9 @@ footer strong {
             tailored to your operation.
         </p>
 
+        <p>
+            Email us at <a class="contact-email" href="mailto:sales@500multi.com">sales@500multi.com</a>.
+        </p>
 
         <a
             class="primary-button"
@@ -1040,9 +1034,9 @@ footer strong {
     <br>
 
     Business Support Solutions
-
+    <br>
+    <a href="mailto:sales@500multi.com">sales@500multi.com</a>
     <br><br>
-
     © 2026 500 Multiservices LLC.
     All rights reserved.
 
